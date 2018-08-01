@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Язык Жестов: Обучение</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="reset_quiz">Reset</string>
+    <string name="incorrect_answer">Incorrect!</string>
+
+    <string name="text_tab1">Это первая вкладка</string>
+    <string name="text_tab2">Это вторая вкладка</string>
+    <string name="text_tab3">Это третья вкладка</string>
+    <string name="text_tab_header">Свой заголовок</string>
+    <string name="title_activity_tab_result">TabResult</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

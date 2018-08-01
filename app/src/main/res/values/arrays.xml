@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alfabet_big">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+        <item>Э</item>
+        <item>Ю</item>
+        <item>Я</item>
+    </string-array>
+
+    <string-array name="alfabet_small">
+        <item>а</item>
+        <item>б</item>
+        <item>в</item>
+        <item>г</item>
+        <item>д</item>
+        <item>е</item>
+        <item>ж</item>
+        <item>з</item>
+        <item>и</item>
+        <item>й</item>
+        <item>к</item>
+        <item>л</item>
+        <item>м</item>
+        <item>н</item>
+        <item>о</item>
+        <item>п</item>
+        <item>р</item>
+        <item>с</item>
+        <item>т</item>
+        <item>у</item>
+        <item>ф</item>
+        <item>х</item>
+        <item>ц</item>
+        <item>ч</item>
+        <item>ш</item>
+        <item>щ</item>
+        <item>ъ</item>
+        <item>ы</item>
+        <item>ь</item>
+        <item>э</item>
+        <item>ю</item>
+        <item>я</item>
+    </string-array>
+
+</resources>

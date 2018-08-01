@@ -1,0 +1,9 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizFragment"
+    android:name="ua.example.ioeug.surdomay.Test1Fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout="@layout/fragment_test1"
+    class="ua.example.ioeug.surdomay.Test1Fragment"/>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3346bf</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="correct_answer">#00CC00</color>
+    <color name="background">#aef1be</color>
+    <color name="btnback0">#880011ff</color>
+    <color name="white_power">#f1f5f8</color>
+    <color name="text_button">#2c2d2e</color>
+    <color name="text_main">#000000</color>
+    <color name="incorrect">#ff0004</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="cell">#e1d682</color>
+</resources>

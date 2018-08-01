@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_power">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stepView"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerView"
+            android:layout_weight="1"
+            android:textSize="20dp"/>
+
+        <Chronometer
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tableRow1">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/row1"
+                android:gravity="center">
+
+                <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/imBtn3"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/buttonshape"
+                    android:layout_margin="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/row2"
+                android:gravity="center">
+
+                <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/imBtn2"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/buttonshape"
+                    android:layout_margin="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/row3"
+                android:gravity="center">
+
+                <ImageButton
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imBtn1"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/buttonshape"
+                    android:layout_margin="5dp"/>
+            </TableRow>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tableRow2">
+
+            <TableRow
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/row4"
+                android:gravity="center">
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/btn1"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/text_button"
+                    android:layout_margin="5dp"
+                    android:textSize="90dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/row5"
+                android:gravity="center">
+
+                <Button
+                    android:textSize="90dp"
+                    android:text="Button"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/btn2"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/text_button"
+                    android:layout_margin="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/row6"
+                android:gravity="center">
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/btn3"
+                    android:background="@drawable/buttonshape"
+                    android:layout_margin="5dp"
+                    android:textSize="90dp"
+                    android:textColor="@color/text_button"/>
+            </TableRow>
+
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

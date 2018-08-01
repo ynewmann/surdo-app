@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.example.ioeug.surdomay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Alfabet"
+            android:label="Букафки"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Test1"
+            android:label="Типо тест"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Test2"
+            android:label="А тут ещё один"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Translate"
+            android:label="Якобы перевод"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TabResult"
+            android:label="@string/title_activity_tab_result"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

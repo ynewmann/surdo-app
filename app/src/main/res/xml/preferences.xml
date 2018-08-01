@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/alfabet_big"
+        android:key="pref_numberOfChoices"
+        android:persistent="true"
+        android:defaultValue="4" />
+
+
+</PreferenceScreen>

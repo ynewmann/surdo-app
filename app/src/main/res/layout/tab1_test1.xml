@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.example.ioeug.surdomay.TabResult$PlaceholderFragment"
+    android:id="@+id/relLay1"
+    android:background="@drawable/yellow">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="   Время   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/text_main"/>
+
+        <TextView
+            android:text="Попытки"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/text_main"/>
+
+        <TextView
+            android:text="Правильно"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/text_main"/>
+
+        <TextView
+            android:text="Усвоение"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/text_main"/>
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/grdView1"
+        android:numColumns="4"
+        android:visibility="visible"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:text="Очистить результаты"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClearT1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
